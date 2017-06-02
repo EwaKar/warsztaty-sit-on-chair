@@ -1,0 +1,15 @@
+{
+  "name": "0_gulp",
+  "version": "1.0.0",
+  "description": "> Instalacja i uruchomienie Gulpa może przysporzyć na początku trochę problemów. > Pamiętaj, że im więcej problemów teraz napotkasz tym później będzie łatwiej. Naucz się czytać > informację wyrzucane przez konsolę.",
+  "main": "index.js",
+  "dependencies": {
+    "gulp": "^3.9.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
