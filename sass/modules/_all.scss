@@ -15,20 +15,6 @@
 }
 
 
-//nav>ul>li>ul {
-
-.invisible {
-	  display: none;
-    position: absolute;
-    width: 300px;
-}
-//	.nav>ul>li {
-	//    display: inline-block;
-	  //  position: relative;
-//	}
-
-
-
 
 #prevPicture  {
 	width: 34px;
@@ -63,14 +49,13 @@ line-height: 20px;
 position: absolute;
 z-index: 2;
 top: 350px;
-left:600px;
+left:1200px;
 }
 
 
 .container {
 	width:1200px;
 	margin:0 auto;
-	border:2px solid red;
 	display: block;
 	//display: flex;
 	//flex-wrap:wrap;
@@ -80,7 +65,6 @@ left:600px;
 	width:100%;
 	margin-left:-15px;
 	margin-right:-15px;
-	border:1px solid blue;
 	&:before, &:after {
 		content:'';
 		display:table;
@@ -100,7 +84,7 @@ left:600px;
 	min-height:1px;
 	padding-left:15px;
 	padding-right:15px;
-	border:1px solid orange;
+
 }
 
 
@@ -157,8 +141,6 @@ li {
 height: 500px;
 background-image: linear-gradient(to top, #d0cfd7 0%, #eeeef0 34%, #fafafa 100%);
 }
-
-
 
 
 .slogan {
@@ -237,12 +219,50 @@ font-weight: 400;
 line-height: 20px;
 }
 
-.layer_10 {
-	width: 355px;
-	height: 62px;
-	opacity: 0.42;
+.infinitive {
 	position: relative;
+	z-index: 1;
 }
+.layer-7 {
+width: 355px;
+height: 62px;
+opacity: 0.42;
+background-color: white;
+position:absolute;
+top: 150px;
+z-index: 2;
+}
+
+#clair {
+color: black;
+font-family: Raleway;
+font-size: 16px;
+font-weight: 600;
+line-height: 20px;
+position: absolute;
+z-index: 2;
+}
+
+.line_1 {
+	width: 138px;
+height: 7px;
+background-color: #27c7ab;
+position: absolute;
+z-index:3;
+top:190px;
+}
+
+.line_2 {
+	width: 138px;
+height: 7px;
+background-color: #27c7ab;
+position: absolute;
+z-index:3;
+top:40px;
+}
+
+
+
 .image1{
 	position: absolute;
 	z-index: 2;
@@ -587,7 +607,6 @@ font-weight: 400;
 	margin-top:65px;
 	width: 284px;
 height: 283px;
-border: 1px solid red;
 background-image: url(../images/red.png);
 width: 284px;
 height: 283px;
